@@ -341,7 +341,7 @@ body {
 /**************** Information ************/
 
 .information {
-  max-height: 10.375rem;
+  min-height: 10.375rem;
   max-width: 27.5625rem;
   line-height: 2;
   margin: 1.75rem 4rem;
@@ -359,4 +359,8 @@ body {
   color: hsl(270, 7%, 64%);
 
   animation: slide-in-r 0.5s ease-in;
+}
+
+.attribution {
+  display: block;
 }
